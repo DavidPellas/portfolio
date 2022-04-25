@@ -18,7 +18,6 @@ body
     position: relative;
     width: 600px;
     height: 350px;
-    background: #ccc;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -45,6 +44,7 @@ body
     height: 100%;
     background: #128;
     clip-path: circle(120px at center);
+    transition: 0.75s;
 }
 .card .circle:hover:before
 {
