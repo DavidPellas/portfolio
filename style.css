@@ -54,7 +54,7 @@ body
 .card .content
 {
     position: relative;
-    width: 50%;
+    width: 0%;
     padding: 20px 20px 20px 40px;
     transition: 1s;
     opacity: 0;
@@ -63,6 +63,8 @@ body
 }
 .card:hover .content
 {
+    position: relative;
+    width: 50%;
     Left: 0;
     opacity: 1;
     visibility: visible;
