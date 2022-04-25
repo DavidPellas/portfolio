@@ -69,21 +69,21 @@ body
 }
 .card .content h2
 {
-    color: #ccc;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-size: 2em;
     line-height: 1em;
 }
 .card .content p{
-    color: #ccc;
+    color: rgb(0, 0, 0);
 }
 .card .content a
 {
     position: relative;
-    color: #ccc;
+    color: rgb(255, 251, 28);
     padding: 10px 20px;
     border-radius: 10px;
-    background: #ccc;
+    background: rgb(243, 172, 20);
     color: #111;
     margin-top: 10px;
     display: inline-block;
