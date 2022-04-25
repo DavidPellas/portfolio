@@ -23,7 +23,7 @@ body
     display: flex;
     align-items: center;
     border-radius: 20px;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 .card .circle
 {
