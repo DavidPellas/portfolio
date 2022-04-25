@@ -22,7 +22,7 @@ body
     display: flex;
     align-items: center;
     border-radius: 20px;
-    transition: 1.5s;
+    transition: 0.75s;
 }
 .card .circle
 {
@@ -50,4 +50,20 @@ body
 {
     background: #055;
     clip-path: circle(400px at center);
+}
+.card .content
+{
+    position: relative;
+    width: 50%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.75s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.card:hover .content
+{
+    Left: 0;
+    opacity: 1;
+    visibility: visible;
 }
